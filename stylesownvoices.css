@@ -1,0 +1,134 @@
+.nav-wrapper {
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-left: 55px;
+    color: #505050;
+   
+}
+
+.nav-wrapper .top-left-side .brand {
+    color: black;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4em;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    font-size: 75%;
+    color: darkgray;
+}
+
+.nav-link-wrapper a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper:hover a {
+    color: #8a8a8a;
+}
+
+.nav-wrapper2 {
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-left: 55px;
+}
+
+.nav-link-wrapper2 {
+    transition: border-bottom 0.5s;
+    text-indent: 0px;
+    font-size: 70%;
+    padding: 2px 0px 2px 0px;
+}
+
+.nav-link-wrapper2 a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+
+.nav-link-wrapper2:hover a {
+    color: #8a8a8a;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.top-left-side {
+     background-color: #e3e3e3;
+     height: 125%;
+     width: 50px;
+     padding: 4px 8px;
+     border: 5px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+}
+
+#nav {
+    width: 275px;
+    float: left;
+    color: #363636;
+}
+
+#main {
+    width: 650px;
+    margin: 0px;
+    border: 0px;
+    float: left;
+    padding: 105px 0px 0px 0px;
+}
+
+.brand {
+    text-decoration: none;
+    font-size: 75%;
+    color: #212121;
+}
+
+.brand a {
+    text-decoration: none;
+    color: black;
+}
+
+#info {
+    float: right;
+    width: 450px;
+    height: 570px;
+    padding: auto;
+}
+
+.infotext {
+    padding-top: 90px;
+    font-size: 80%;
+    color: #363636;
+    line-height: 20px;
+    text-decoration: auto;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.programmenote {
+    text-decoration: none;
+    font-size: 75%;
+    color: #363636;
+}
+
+.programmenote a {
+    text-decoration: none;
+    color: #363636;
+    transition: color 0.5s;
+}
+
+.programmenote:hover a {
+    color: #8a8a8a;
+}
